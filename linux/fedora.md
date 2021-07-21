@@ -79,8 +79,8 @@ For setting the NVIDIA card as primary (only on supported cards), refer to: [thi
 1. Enable [COPR](https://copr.fedorainfracloud.org/) repository:
 		`sudo dnf copr enable dawid/better_fonts -y`
 2. Install packages:
-		For font replacements`sudo dnf install fontconfig-font-replacements -y`
-		For enabling Subpixel antialiasing: `sudo dnf install fontconfig-enhanced-defaults -y`
+- For font replacements: `sudo dnf install fontconfig-font-replacements -y`
+- For enabling Subpixel antialiasing: `sudo dnf install fontconfig-enhanced-defaults -y`
 		
 And then log out and log in again or reboot to see the effects.
 
