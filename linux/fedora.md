@@ -48,6 +48,20 @@ The following command will install the sound-and-video complement packages neede
 sudo dnf groupupdate sound-and-video
 ```
 
+### Add [flathub](https://flathub.org/home) and flathub-beta repositories for flatpak applications
+Fedora provides its own flatpak repository by default, but doesn't provide as much applications as flathub.
+
+To add flathub repositories run:
+
+- Stable
+```shell
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+- Beta
+```shell
+flatpak remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
+```
+
 ### NVIDIA graphics cards drivers
 
 In case you have and NVIDA graphics card on your system, it's recommended to install the proprietary drivers to get better performance.
