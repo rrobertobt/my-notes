@@ -61,6 +61,13 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 ```shell
 flatpak remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
 ```
+**(Optional) Install [Flatseal](https://flathub.org/apps/details/com.github.tchx84.Flatseal)**
+
+Flatseal lets you easily manage permissions of Flatpak applications (access to devices, user's files) using a GUI instead of having to deal with long commands on the terminal. To install it run:
+
+```shell
+flatpak install flathub com.github.tchx84.Flatseal
+```
 
 ### NVIDIA graphics cards drivers
 
