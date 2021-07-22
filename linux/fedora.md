@@ -71,7 +71,7 @@ flatpak install flathub com.github.tchx84.Flatseal
 
 ### NVIDIA graphics cards drivers
 
-In case you have and NVIDA graphics card on your system, it's recommended to install the proprietary drivers to get better performance.
+If you have a NVIDIA graphics card on your system, it's recommended to install the proprietary drivers to get better performance.
 
 To install the driver (kernel module) run:
 
