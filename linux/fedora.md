@@ -132,3 +132,11 @@ To install it, run:
 ```shell
 sudo dnf install v4l2loopback
 ```
+
+### Install WINE for Windows programms and games compatibility 
+
+WINE provides a compatibilty layer for excecuting programms and games that were design to run on Windows. Install it by running:
+
+```shell
+sudo dnf install wine
+```
