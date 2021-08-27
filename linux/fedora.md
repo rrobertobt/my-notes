@@ -91,6 +91,14 @@ After finishing the installation, run:
 
 For setting the NVIDIA card as primary (only on supported cards), refer to: [this page and post](https://ask.fedoraproject.org/t/optimus-setting-the-nvidia-gpu-as-primary-rpmfusion-in-fedora-32-workstation/6550/6)
 
+Also recommended, Install VDPAU:
+
+```shell
+sudo dnf install vdpauinfo libva-vdpau-driver libva-utils
+```
+
+VDPAU is the Video Decode and Presentation API for UNIX. It provides an interface to video decode acceleration and presentation hardware present in modern GPUs.
+
 ### Free fonts replacments
 
 **[Better fonts for Fedora](https://github.com/silenc3r/fedora-better-fonts)** provides free substitutions for popular proprietary fonts from Microsoft and Apple operating systems. And also provides an optional package to enable Subpixel antialiasing (Can be enabled on GNOME Tweaks too)
