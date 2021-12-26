@@ -129,6 +129,24 @@ To install GNOME's archive manager (file-roller) run:
 sudo dnf install file-roller
 ```
 
+### Enable the SysRq key
+The SysRq key is a key combination that is understood by the Linux kernel, which allows the user to perform various low-level commands regardless of the system's state. It is often used to recover from freezes, or to reboot a computer without corrupting the filesystem.
+
+Before changing any configurations, first check if the SysRq key is already enabled or not, this can be done by running the following command and checking the output:
+
+```shell
+~ 
+ cat /proc/sys/kernel/sysrq
+1
+```
+
+If the output shows any number different than ```1``` it means it's not enabled. To enable it, edit the ```/etc/sysctl.conf``` file as root and add the following line:
+```shell
+kernel.sysrq = 1
+```
+
+After editing, save the file and reboot so changes can make effect.
+
 ### Add support for virtual video devices
 
 Programms like OBS and DroidCam, lets you use alternative video sources, as a video capture device and use it on other programms (like replacing your webcam's video for another video source)
