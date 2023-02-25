@@ -99,6 +99,10 @@ sudo dnf install vdpauinfo libva-vdpau-driver libva-utils
 
 VDPAU is the Video Decode and Presentation API for UNIX. It provides an interface to video decode acceleration and presentation hardware present in modern GPUs.
 
+### Set Java development enviroment
+
+//todo
+
 ### Free fonts replacments
 
 **[Better fonts for Fedora](https://github.com/silenc3r/fedora-better-fonts)** provides free substitutions for popular proprietary fonts from Microsoft and Apple operating systems. And also provides an optional package to enable Subpixel antialiasing (Can be enabled on GNOME Tweaks too)
@@ -166,3 +170,7 @@ WINE provides a compatibilty layer for excecuting programms and games that were 
 ```shell
 sudo dnf install wine
 ```
+
+## Export monitor settings to the login screen
+
+## Install asusctl for ASUS laptops and supergfxctl
